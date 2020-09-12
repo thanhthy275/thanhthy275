@@ -1,0 +1,40 @@
+@import "all.css";
+
+/*Latest news*/
+
+.news {
+    border: 1px solid lightgrey;
+    }
+    
+    .news-content {
+    padding: 10px;
+    }
+    
+    .col-sm-6 {
+      padding: 20px;
+    }
+    
+ 
+.news-post-container {
+  padding-left: 30px;
+}
+.btn-block {
+    border: transparent;
+    padding: 8px;
+}
+
+.news-post {
+  border-bottom: 1px solid gray;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.news-post-text {
+  font-weight: 300px;
+  font-size: larger;
+}
+.news-post-img {
+  width: 100px;
+  height: 100px;
+}

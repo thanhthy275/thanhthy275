@@ -1,0 +1,131 @@
+
+@import "all.css";
+
+
+
+h3 {
+  font-size: 1rem;
+  margin-top: 1rem;  
+  margin-bottom: 1rem;  
+  text-align: left;
+  }
+
+/* ABOUT US */
+.title-section {
+max-width:120px; 
+text-align:right; 
+border-bottom: 3px solid #076fda; 
+line-height:0.1em; 
+}
+
+.line {
+  background:white; 
+  padding: 0 10px;
+}
+
+.about-us {
+width: 500px;
+max-width: 50%;
+position: relative;
+}
+
+ 
+  /* OUR BUSINESS */
+  #our-business {
+    padding: 0;
+    }
+    #our-business div {
+    padding: 0;
+    }
+    
+    .img-business {
+    width: 100%;
+    height: 480px !important;
+    }
+    
+    
+    #img-business-container  {
+    padding: 20px !important;
+    top: 0;
+    position: absolute;
+    color: white;
+    }
+    
+    .img-center {
+    right: 3em !important;
+    position: relative;
+    float: left;
+    }
+    
+    /* Dành cho điện thoại */
+    @media all and (max-width: 480px) {
+      .img-center {
+        right: 0.2em !important;
+        position: relative;
+        float: left;
+        }
+     
+    }
+    .rounded-circle {
+    border-radius: 50% !important;
+    width: 50px;
+    height: auto;
+    position: relative;
+    max-width: 50px;
+    }
+    
+    #line-white::before {
+      margin-right: 20px;
+      content: "_____";
+      font-weight: 30px;
+      color: white;
+    }
+    
+    
+    /*Latest news*/  
+    .news {
+    border: 2px solid lightgrey;
+    }
+    
+    .news-content {
+    padding: 10px;
+    }
+    
+    .col-sm-4 {
+      padding: 10px;
+    }
+    
+    .line-small {
+      max-width: 95px !important;
+    }
+    /* CONTACT */
+    
+    #contact-map {
+    max-width: 100%;
+    height: auto;
+    }
+    .contact-input {
+      padding: 1em;
+    }
+    
+    
+    input[type="submit"] {
+      background-color: orange;
+      padding: 15px 20px;
+      margin: 10px;
+      margin-left: 85%;
+      border-radius: 5px;
+      color: white;
+    }
+    
+    /* Dành cho điện thoại */
+    @media all and (max-width: 480px) {
+    input[type="submit"] {
+      background-color: orange;
+      padding: 15px 20px;
+      margin: 10px;
+      border-radius: 5px;
+      color: white;
+      }
+    }
+    

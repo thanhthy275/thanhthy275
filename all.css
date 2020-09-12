@@ -1,0 +1,93 @@
+nav {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  section {
+    padding: 40px 20%;
+  } 
+  
+  * { 
+    box-sizing: border-box;
+  }
+
+ 
+.line {
+  font-size: 50px;
+  color: #076fda;
+}
+
+  /* Menu */
+  #menu {
+  background: #076fda;
+  padding: 20px 45px !important;
+  margin: 0 -15px 0 -15px;
+  }
+  .navbar-brand {
+    font-size: 28px;
+  }
+ 
+  /* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+  #menu {
+    background: white; }
+  #nav-header { 
+    color: #076fda !important;
+  }
+}
+
+  .search{
+  color: white;
+  }
+  
+  .nav-link:hover {
+  color: yellow !important;
+  }
+  
+  
+  .active {
+    color: orange !important;
+  }
+  #img1 {
+    margin: 0 -15px 0 -15px;
+  }
+
+  /* FOOTER */
+.padding-20{
+    padding-right: 20%;
+  padding-left: 20%;
+  }
+  #footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 2em;
+  font-size: medium;
+  text-align: left;
+  padding-top: 2em;
+  margin: 0 -15px 0 -15px;
+  }
+  
+  #input-email {
+  border-bottom: 1px solid white;
+  }
+  #email-contact{
+  background-color: black;
+  border: none;
+  color: white;
+  }
+  footer li {
+  list-style-type: none;
+  }
+  
+  
+  footer ul {
+  margin: 0;
+  padding: 0;
+  }
+  
+  .col-lg-3 {
+    padding-block-end: 2em;
+  }
+  hr {
+  background-color: white;
+  }
+  

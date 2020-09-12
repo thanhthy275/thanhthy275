@@ -1,0 +1,17 @@
+@import "all.css";
+
+/*Our Business */
+.margin-bottom {
+  padding-bottom: 140px;
+}
+
+ /* Dành cho điện thoại */
+ @media all and (max-width: 480px) {
+  section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+ }
+
+
+  

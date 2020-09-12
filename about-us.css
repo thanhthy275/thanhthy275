@@ -1,0 +1,13 @@
+
+@import "all.css";
+
+/*ABOUT US */
+#link-orange {
+  color: orange;
+  text-decoration: none;
+}
+
+.line {
+  font-size: 50px;
+  color: #076fda;
+}
