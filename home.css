@@ -9,26 +9,26 @@ h3 {
   margin-bottom: 1rem;  
   text-align: left;
   }
-
-/* ABOUT US */
-.title-section {
-max-width:120px; 
-text-align:right; 
-border-bottom: 3px solid #076fda; 
-line-height:0.1em; 
-}
-
-.line {
-  background:white; 
-  padding: 0 10px;
-}
-
-.about-us {
-width: 500px;
-max-width: 50%;
-position: relative;
-}
-
+  
+ /* ABOUT US */
+ .title-section {
+  max-width:120px; 
+  text-align:right; 
+  border-bottom: 3px solid #076fda; 
+  line-height:0.1em; 
+  }
+  
+  .line {
+    background:white; 
+    padding: 0 10px;
+  }
+  
+  .about-us {
+  width: 500px;
+  max-width: 50%;
+  position: relative;
+  }
+  
  
   /* OUR BUSINESS */
   #our-business {
@@ -128,4 +128,5 @@ position: relative;
       color: white;
       }
     }
+    
     
