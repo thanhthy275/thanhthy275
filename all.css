@@ -1,52 +1,63 @@
 nav {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-  section {
-    padding: 40px 20%;
-  } 
-  
-  * { 
-    box-sizing: border-box;
-  }
-
- 
-.line {
-  font-size: 50px;
-  color: #076fda;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+section {
+  padding: 40px 20%;
 }
 
-  /* Menu */
-  #menu {
-  background: #076fda;
-  padding: 20px 45px !important;
-  margin: 0 -15px 0 -15px;
+
+
+* { 
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 1rem;  
+  margin-bottom: 1rem;  
+  text-align: left;
   }
-  .navbar-brand {
-    font-size: 28px;
-  }
- 
+
+
+/* Menu */
+#menu {
+background: #076fda;
+padding: 20px 45px !important;
+margin: 0 -15px 0 -15px;
+}
+
   /* Dành cho điện thoại */
 @media all and (max-width: 480px) {
-  #menu {
-    background: white; }
-  #nav-header { 
-    color: #076fda !important;
-  }
+#menu {
+  background: white; }
+#nav-header { 
+  color: #076fda !important;
+}
+}
+.navbar-brand {
+font-size: 28px;
+}
+.search{
+padding-left: 15px;
+color: white;
+margin-left: -15px;
 }
 
-  .search{
-  color: white;
-  }
+.nav-link:hover {
+color: yellow !important;
+}
+
+.active {
+  color: orange !important;
+}
+#img1 {
+  margin: 0 -15px 0 -15px;
+}
+
   
-  .nav-link:hover {
-  color: yellow !important;
-  }
   
-  
-  .active {
-    color: orange !important;
-  }
+
   #img1 {
     margin: 0 -15px 0 -15px;
   }
