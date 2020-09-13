@@ -2,9 +2,12 @@
 
 /*Our Business */
 .margin-bottom {
-  padding-bottom: 140px;
+  padding-bottom: 30px;
 }
-
+.line {
+  font-size: 40px;
+  color: #076fda;
+}
  /* Dành cho điện thoại */
  @media all and (max-width: 480px) {
   section {
